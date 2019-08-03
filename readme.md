@@ -1,4 +1,4 @@
-# Overview
+# SVG Experiment Thing
 
 This is a quick experiment with generating `<svg>` elements.
 
