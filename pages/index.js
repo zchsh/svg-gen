@@ -42,6 +42,8 @@ class ExamplePage extends React.Component {
       <div style={{ background: "lightgray" }}>
         Hello example program!
         <br />
+        Change settings, and then click "Regenerate" to update the SVG artwork.
+        <br />
         <button onClick={this.regenerate}>Regenerate</button>
         <br />
         Stroke width :{" "}
