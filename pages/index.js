@@ -28,8 +28,7 @@ class ExamplePage extends React.Component {
   updateValue = (key, val) => {
     const updatedValues = Object.assign({}, this.state.values);
     updatedValues[key] = val;
-    const editedCode = meanderLine(updatedValues);
-    this.setState({ values: updatedValues, editedCode });
+    this.setState({ values: updatedValues });
   };
 
   regenerate = () => {
