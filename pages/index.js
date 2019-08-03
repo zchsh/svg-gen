@@ -5,7 +5,7 @@ import meanderLine from "./meanderLine";
 
 const defaultValues = {
   stroke: 1,
-  color: "dodgerblue",
+  color: "red",
   numpoints: 100,
   numlines: 120,
   opacity: 0.5,
